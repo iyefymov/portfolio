@@ -1,0 +1,105 @@
+{
+    "locales": {
+        "en": {
+            "title": "<span class='text-primary'>Professional</span> Experience",
+            "description": "A look into my work experience and career journey."
+        },
+        "ua": {
+            "title": "<span class='text-primary'>Професійний</span> досвід",
+            "description": "Огляд мого трудового досвіду та кар'єрного шляху."
+        }
+    },
+
+    "items": [
+
+        {
+            "id": "experience_item_1",
+            "place": "@link{places.nix}",
+            "period": ["2018/05", "2019/07"],
+            "locales": {
+                "en": {
+                    "title": "Quality Assurance Analyst",
+                    "description": "Developed and maintained automated GUI tests using Selenium and Groovy. Conducted manual testing, including regression, sanity, cross-browser, and mobile testing. Collaborated with product owners and engaged in Scrum ceremonies to ensure product quality.",
+                    "tags": ["Groovy", "Selenium", "Manual Testing", "Scrum"]
+                },
+                "ua": {
+                    "title": "Аналітик з забезпечення якості",
+                    "description": "Розробив та підтримував автоматизовані GUI тести за допомогою Selenium та Groovy. Проводив ручне тестування, включаючи регресійне, санітарне, крос-браузерне та мобільне тестування. Співпрацював з власниками продуктів та брав участь у Scrum-церемоніях для забезпечення якості продукту.",
+                    "tags": ["Groovy", "Selenium", "Ручне тестування", "Scrum"]
+                }
+            }
+        },
+
+        {
+            "id": "experience_item_2",
+            "place": "@link{places.nscc}",
+            "period": ["2019/10", "2020/04"],
+            "locales": {
+                "en": {
+                    "title": "Programming Tutor",
+                    "description": "Mentored 6 classmates to grasp programming languages and technologies such as Python, MongoDB, Linux, Java, and C, fostering a stronger grasp of the material and improved academic performance.",
+                    "tags": ["Educational Mentorship", "Python", "MongoDB", "Linux", "Java", "C"]
+                },
+                "ua": {
+                    "title": "Наставник з програмування",
+                    "description": "Наставляв 6 однокласників, щоб вони засвоїли мови програмування та технології, такі як Python, MongoDB, Linux, Java та C, сприяючи глибшому розумінню матеріалу та покращенню академічних результатів.",
+                    "tags": ["Освітнє наставництво", "Python", "MongoDB", "Linux", "Java", "C"]
+                }
+            }
+        },
+
+        {
+            "id": "experience_item_3",
+            "place": "@link{places.avrl}",
+            "period": ["2020/06", "2020/12"],
+            "locales": {
+                "en": {
+                    "title": "Digital Literacy Instructor",
+                    "description": "Provided technical assistance to seniors on using iPad, iPhone, MacBook, Windows laptops, and e-Readers. Developed and executed educational plans for teaching programming to children and teens using Lego Robotics. Created tutorial videos on using E-Library resources.",
+                    "tags": ["Technical Assistance", "Educational Mentorship", "Lego Robotics", "Tutorial Videos"]
+                },
+                "ua": {
+                    "title": "Інструктор цифрової грамотності",
+                    "description": "Надавав технічну допомогу літнім людям у використанні iPad, iPhone, MacBook, ноутбуків на Windows та електронних читалок. Розробляв та реалізовував навчальні плани для навчання програмуванню дітей та підлітків за допомогою Lego Robotics. Створював навчальні відео про використання ресурсів електронної бібліотеки.",
+                    "tags": ["Технічна допомога", "Освітнє наставництво", "Lego Robotics", "Навчальні відео"]
+                }
+            }
+        },
+
+        {
+            "id": "experience_item_4",
+            "place": "@link{places.colibri}",
+            "period": ["2021/01", "now"],
+            "locales": {
+                "en": {
+                    "title": "Lead Full Stack Developer",
+                    "description": "Conducted a thorough analysis of a complex system, implementing solutions that resolved existing issues and ensured seamless integration. Single-handedly managed the entire development lifecycle, from analyzing business requirements to deploying thoroughly tested code, resulting in a seamless and high-quality product that met all user expectations. Successfully managed, led, mentored and collaborated with an outsourced development team while excelling in independent work. Excelled in writing precise and reversible database migrations in Django, ensuring smooth transitions and preserving data integrity during system updates. Developed a scalable backend using Django and Django Rest Framework, resulting in a 50% increase in system efficiency and overall productivity. Created responsive, user-friendly front-end interfaces using Vue.js, HTML, and CSS. Conducted thorough testing using Django unit tests, Selenium UI tests, and Locust load testing for reliable applications. Implemented CI/CD pipelines with GitHub Actions, Bash scripting, and Docker, streamlining the development process. Managed deployment on various platforms, including Dokku, AWS LightSail, AWS RDS, and AWS S3. Integrated machine learning capabilities via AWS SageMaker, enhancing the classification model's accuracy by 15%.",
+                    "tags": [
+                        "Full Stack Development",
+                        "Django",
+                        "Django Rest Framework",
+                        "Vue.js",
+                        "HTML", "CSS", "Django Unit Tests", "Selenium UI Tests",
+                        "Locust Load Testing", "CI/CD Pipelines", "GitHub Actions",
+                        "Bash Scripting", "Docker", "Deployment Management", "AWS LightSail",
+                        "AWS RDS", "AWS S3", "AWS SageMaker", "Machine Learning"
+                    ]
+                },
+                "ua": {
+                    "title": "Ведучий Full Stack Developer",
+                    "description": "Провів детальний аналіз складної системи, реалізувавши рішення, які усунули наявні проблеми та забезпечили безперебійну інтеграцію. Одноосібно управляв усім життєвим циклом розробки, від аналізу бізнес-вимог до розгортання ретельно протестованого коду, що призвело до безперебійного та високоякісного продукту, який відповідав усім очікуванням користувачів. Успішно управляв, керував, наставляв і співпрацював з аутсорсинговою командою розробників, а також досяг успіху в самостійній роботі. Відзначився у написанні точних і оборотних міграцій бази даних у Django, забезпечуючи плавні переходи та збереження цілісності даних під час оновлення системи. Розробив масштабований бекенд за допомогою Django та Django Rest Framework, що призвело до 50% збільшення ефективності системи та загальної продуктивності. Створив адаптивні, зручні інтерфейси фронтенду за допомогою Vue.js, HTML та CSS. Проводив всебічне тестування за допомогою модульних тестів Django, UI-тестів Selenium та навантажувального тестування Locust для надійних додатків. Реалізував CI/CD конвеєри за допомогою GitHub Actions, Bash-скриптів і Docker, спростивши процес розробки. Керував розгортанням на різних платформах, включаючи Dokku, AWS LightSail, AWS RDS та AWS S3. Інтегрував можливості машинного навчання через AWS SageMaker, підвищивши точність класифікаційної моделі на 15%.",
+                    "tags": [
+                        "Full Stack розробка",
+                        "Django",
+                        "Django Rest Framework",
+                        "Vue.js",
+                        "HTML", "CSS", "Модульні тести Django", "UI-тести Selenium",
+                        "Навантажувальне тестування Locust", "CI/CD", "GitHub Actions",
+                        "Bash-скрипти", "Docker", "Управління розгортанням", "AWS LightSail",
+                        "AWS RDS", "AWS S3", "AWS SageMaker", "Машинне навчання"
+                    ]
+                }
+            }
+        }
+    ]
+}

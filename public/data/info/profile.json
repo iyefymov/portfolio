@@ -1,0 +1,60 @@
+{
+    "name": "Illia Yefymov",
+    "profilePictureUrl": "images/pictures/avatar.png",
+
+    "locales": {
+        "en": {
+            "role": "Full Stack Developer"
+        }
+    },
+
+    "contact": {
+        "address": {
+            "id": "address",
+            "value": "Calgary, AB, Canada",
+            "valueShort": "Calgary, AB, Canada",
+            "faIcon": "fa-solid fa-city",
+            "href": null
+        },
+
+        "email": {
+            "id": "email",
+            "value": "illia.yefymov@gmail.com",
+            "valueShort": "illia.yefymov@gmail.com",
+            "faIcon": "fa-solid fa-envelope",
+            "href": "mailto:illia.yefymov@gmail.com"
+        },
+
+        "facebook": {
+            "id": "facebook",
+            "value": "Illia Yefymov",
+            "valueShort": "I. Yefymov",
+            "faIcon": "fa-brands fa-facebook",
+            "href": "https://www.facebook.com/ilya.yefymov"
+        },
+
+        "github": {
+            "id": "github",
+            "value": "@iyefymov",
+            "valueShort": "@iyefymov",
+            "faIcon": "fa-brands fa-github",
+            "href": "https://github.com/iyefymov"
+        },
+
+        "instagram": {
+            "id": "instagram",
+            "value": "@illia_yefymov",
+            "valueShort": "@illia_yefymov",
+            "faIcon": "fa-brands fa-instagram",
+            "href": "https://www.instagram.com/illia_yefymov/"
+        },
+
+        "linkedin": {
+            "id": "linkedin",
+            "value": "@illia-yefymov",
+            "valueShort": "@illia-yefymov",
+            "faIcon": "fa-brands fa-linkedin",
+            "href": "https://www.linkedin.com/in/illia-yefymov/"
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "locales": {
+        "en": {
+            "title": "<span class='text-primary'>Contact</span> Me",
+            "description": "Please don't hesitate to get in touch with me whenever you feel the need!",
+            "subtitle": "Or...",
+            "subtitleDescription": "If you prefer, you can reach out to me through the following options:"
+        },
+        "ua": {
+            "title": "<span class='text-primary'>Зв'яжіться</span> зі мною",
+            "description": "Будь ласка, не соромтеся зв'язатися зі мною, коли відчуєте таку потребу!",
+            "subtitle": "Або...",
+            "subtitleDescription": "Якщо ви віддаєте перевагу, ви можете зв'язатися зі мною через наступні варіанти:"
+        }
+    },
+
+    "items": [
+        "@link{profile.contact.address}",
+        "@link{profile.contact.email}",
+        "@link{profile.contact.linkedin}",
+        "@link{profile.contact.facebook}",
+        "@link{profile.contact.instagram}"
+    ]
+}

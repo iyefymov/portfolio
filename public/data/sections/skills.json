@@ -1,0 +1,300 @@
+{
+    "locales": {
+        "en": {
+            "title": "<span class='text-primary'>Skill</span> Set",
+            "description": "Exploring the diverse range of skills I've acquired and developed:"
+        },
+        "ua": {
+            "title": "<span class='text-primary'>Навички</span>",
+            "description": "Дослідження різноманітних навичок, які я здобув та розвинув:"
+        }
+    },
+
+    "subcategories": [
+        {
+            "id": "abilities",
+            "type": "grid",
+            "progress": null,
+            "faIcon": "fa-solid fa-square",
+            "locales": {
+                "en": {"title": null},
+                "ua": {"title": null}
+            }
+        },
+        {
+            "id": "languages",
+            "type": "list",
+            "progress": {
+                "0": "beginner",
+                "20": "rookie",
+                "40": "intermediate",
+                "60": "advanced",
+                "80": "fluent",
+                "100": "native"
+            },
+            "faIcon": "fa fa-language",
+            "locales": {
+                "en": {"title": "Languages"},
+                "ua": {"title": "Мови"}
+            }
+        },
+        {
+            "id": "extra",
+            "type": "grid",
+            "progress": null,
+            "faIcon": "fa fa-marker",
+            "locales": {
+                "en": {"title": "Bonus Skills"},
+                "ua": {"title": "Додаткові Навички"}
+            }
+        }
+    ],
+
+    "items": {
+        "abilities": [
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-code",
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "Python, JavaScript",
+                        "description": "Expert in Python for backend development and JavaScript for dynamic front-end applications."
+                    },
+                    "ua": {
+                        "title": "Python, JavaScript",
+                        "description": "Експерт у Python для бекенду та JavaScript для динамічних фронтенд-застосунків."
+                    }
+                }
+            },
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-cogs",
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "Docker, AWS EC2, AWS RDS, AWS S3, AWS SageMaker, AWS LightSail, GitHub Actions",
+                        "description": "Proficient in cloud services and DevOps tools for containerization, deployment, and automation."
+                    },
+                    "ua": {
+                        "title": "Docker, AWS EC2, AWS RDS, AWS S3, AWS SageMaker, AWS LightSail, GitHub Actions",
+                        "description": "Володію хмарними сервісами та інструментами DevOps для контейнеризації, розгортання та автоматизації."
+                    }
+                }
+            },
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-server",
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "Django, Django REST Framework, Vue.js",
+                        "description": "Specialized in developing scalable web applications using Django for backend and Vue.js for dynamic front-end interfaces."
+                    },
+                    "ua": {
+                        "title": "Django, Django REST Framework, Vue.js",
+                        "description": "Спеціалізуюся на розробці масштабованих веб-додатків, використовуючи Django для бекенду та Vue.js для динамічного фронтенду."
+                    }
+                }
+            },
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-database",
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "SQL, MongoDB",
+                        "description": "Skilled in managing relational and NoSQL databases, ensuring data integrity and performance optimization."
+                    },
+                    "ua": {
+                        "title": "SQL, MongoDB",
+                        "description": "Володію управлінням реляційними та NoSQL базами даних, забезпечуючи цілісність даних та оптимізацію продуктивності."
+                    }
+                }
+            },
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-code",
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "HTML, CSS",
+                        "description": "Proficient in creating responsive and accessible web layouts using HTML and CSS."
+                    },
+                    "ua": {
+                        "title": "HTML, CSS",
+                        "description": "Володію створенням адаптивних та доступних веб-макетів, використовуючи HTML та CSS."
+                    }
+                }
+            },
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-terminal",
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "Linux, Git, Bash Scripting",
+                        "description": "Experienced in working with Linux environments, version control using Git, and automation through Bash scripting."
+                    },
+                    "ua": {
+                        "title": "Linux, Git, Bash Scripting",
+                        "description": "Досвід роботи в середовищах Linux, контролю версій за допомогою Git та автоматизації за допомогою Bash-скриптів."
+                    }
+                }
+            },
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-mobile-alt",
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "Responsive Layouts",
+                        "description": "Proficient in crafting adaptable layouts for diverse devices, ensuring optimal user experience."
+                    },
+                    "ua": {
+                        "title": "Адаптивні Макети",
+                        "description": "Володію створенням адаптивних макетів для різних пристроїв, забезпечуючи оптимальний досвід користувача."
+                    }
+                }
+            }
+        ],
+
+        "languages": [
+            {
+                "faIcon": "fas fa-circle",
+                "value": 90,
+                "locales": {
+                    "en": {
+                        "title": "English",
+                        "description": "Fluent in both spoken and written English; confident in professional communication."
+                    },
+                    "ua": {
+                        "title": "Англійська",
+                        "description": "Вільно володію англійською мовою, як усною, так і письмовою; впевнений у професійному спілкуванні."
+                    }
+                }
+            },
+            {
+                "faIcon": "fas fa-circle",
+                "value": 100,
+                "locales": {
+                    "en": {
+                        "title": "Ukrainian",
+                        "description": "Native speaker with excellent communication and writing skills."
+                    },
+                    "ua": {
+                        "title": "Українська",
+                        "description": "Носій мови з відмінними навичками комунікації та письма."
+                    }
+                }
+            },
+            {
+                "faIcon": "fas fa-circle",
+                "value": 100,
+                "locales": {
+                    "en": {
+                        "title": "Russian",
+                        "description": "Native speaker with excellent communication and writing skills."
+                    },
+                    "ua": {
+                        "title": "Російська",
+                        "description": "Носій мови з відмінними навичками комунікації та письма."
+                    }
+                }
+            }
+        ],
+
+        "extra": [
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-bug-slash",
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "Problem-Solving",
+                        "description": "Able to analyze complex issues, break them down, and find efficient solutions across both frontend and backend challenges."
+                    },
+                    "ua": {
+                        "title": "Розв'язання Проблем",
+                        "description": "Можу аналізувати складні питання, розбивати їх на складові та знаходити ефективні рішення як на фронтенді, так і на бекенді."
+                    }
+                }
+            },
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-people-arrows",
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "Communication",
+                        "description": "Communicate clearly with team members, stakeholders, and clients, ensuring alignment on requirements and expectations."
+                    },
+                    "ua": {
+                        "title": "Комунікація",
+                        "description": "Чітко спілкуюся з членами команди, зацікавленими сторонами та клієнтами, забезпечуючи відповідність вимог та очікувань."
+                    }
+                }
+            },
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-magnifying-glass",
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "Attention to Detail",
+                        "description": "Ensure that every aspect of the code, from functionality to design, is thoroughly reviewed and optimized, minimizing errors and enhancing overall quality."
+                    },
+                    "ua": {
+                        "title": "Увага до Деталей",
+                        "description": "Забезпечую ретельну перевірку та оптимізацію кожного аспекту коду, від функціональності до дизайну, мінімізуючи помилки та покращуючи загальну якість."
+                    }
+                }
+            },
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-lightbulb",
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "Adaptability",
+                        "description": "Thrive in dynamic environments, quickly adapting to new technologies and shifting priorities as development tools and frameworks evolve."
+                    },
+                    "ua": {
+                        "title": "Адаптивність",
+                        "description": "Працюю в динамічному середовищі, швидко адаптуючись до нових технологій і змін пріоритетів у міру розвитку інструментів і фреймворків."
+                    }
+                }
+            },
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-clock",
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "Time Management",
+                        "description": "Manage tasks, deadlines, and priorities effectively, staying organized and productive while juggling multiple responsibilities across the stack."
+                    },
+                    "ua": {
+                        "title": "Управління Часом",
+                        "description": "Ефективно керую завданнями, термінами та пріоритетами, залишаючись організованим та продуктивним під час виконання кількох завдань одночасно."
+                    }
+                }
+            },
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-people-group",
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "Collaboration",
+                        "description": "Work seamlessly with cross-functional teams, understanding the needs of designers, QA, and project managers, while contributing to a cohesive and efficient development process."
+                    },
+                    "ua": {
+                        "title": "Співпраця",
+                        "description": "Працюю з різнофункціональними командами, розуміючи потреби дизайнерів, QA та менеджерів проєктів, та сприяючи ефективному та узгодженому процесу розробки."
+                    }
+                }
+            }
+        ]
+    }
+}

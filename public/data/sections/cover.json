@@ -1,0 +1,28 @@
+{
+    "locales": {
+        "en": {
+            "welcome": "Welcome to my <span class='text-primary'>Resume!</span>",
+            "welcomeShort": "Welcome!",
+            "bio": "With over 3 years of experience as a Full Stack Developer in building scalable software solutions using Django, Django REST Framework, and Vue.js, I have a proven track record of optimizing backend systems and managing full development lifecycles, including CI/CD pipeline implementations. I thrive in both independent work and team leadership, having mentored outsourced teams and successfully deployed projects on platforms like AWS. Additionally, I am skilled in integrating machine learning capabilities and passionate about delivering high-quality, user-friendly web applications."
+        },
+        "ua": {
+            "welcome": "Ласкаво просимо до мого <span class='text-primary'>Резюме!</span>",
+            "welcomeShort": "Ласкаво просимо!",
+            "bio": "Маючи понад 3 роки досвіду роботи як Full Stack Developer у створенні масштабованих програмних рішень за допомогою Django, Django REST Framework та Vue.js, я маю підтверджений досвід оптимізації бекенд-систем і управління повними життєвими циклами розробки, включаючи реалізацію CI/CD. Я досягаю успіху як у самостійній роботі, так і в командному керівництві, менторив аутсорсингові команди та успішно реалізовував проекти на платформах, таких як AWS. Крім того, я володію навичками інтеграції можливостей машинного навчання і прагну надавати високоякісні, зручні веб-додатки."
+        }
+    },
+
+    "items": {
+        "socialCircles": [
+            "@link{profile.contact.instagram}",
+            "@link{profile.contact.facebook}",
+            "@link{profile.contact.linkedin}",
+            "@link{profile.contact.github}"
+        ],
+
+        "contactListItems": [
+            "@link{profile.contact.address}",
+            "@link{profile.contact.email}"
+        ]
+    }
+}

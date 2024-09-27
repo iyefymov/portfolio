@@ -1,0 +1,152 @@
+{
+    "locales": {
+        "en": {
+            "title": "<span class='text-primary'>Hobbies</span> & Interests",
+            "description": "Here’s how I enjoy spending my free time:"
+        },
+        "ua": {
+            "title": "<span class='text-primary'>Хобі</span> та інтереси",
+            "description": "Ось як я люблю проводити свій вільний час:"
+        }
+    },
+
+    "subcategories": [
+        {
+            "id": "activities",
+            "type": "pie",
+            "progress": "number",
+            "faIcon": "fa-solid fa-clock",
+            "locales": {
+                "en": {"title": null},
+                "ua": {"title": null}
+            }
+        },
+
+        {
+            "id": "interests",
+            "type": "list",
+            "progress": null,
+            "faIcon": "fa fa-book-open-reader",
+            "locales": {
+                "en": {"title": "Interests"},
+                "ua": {"title": "Інтереси"}
+            }
+        }
+    ],
+
+    "items": {
+        "activities": [
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-users",
+                "value": 15,
+                "locales": {
+                    "en": {"title": "Family & Friends", "description": "Spending quality time with loved ones and strengthening relationships."},
+                    "ua": {"title": "Сім'я та друзі", "description": "Проведення якісного часу з близькими та зміцнення відносин."}
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-tasks",
+                "value": 16,
+                "locales": {
+                    "en": {"title": "My Projects", "description": "Engaging in personal creative projects that inspire and challenge me."},
+                    "ua": {"title": "Мої проекти", "description": "Займання особистими творчими проектами, які надихають і кидають виклик."}
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-screwdriver-wrench",
+                "value": 10,
+                "locales": {
+                    "en": {"title": "Home Maintenance", "description": "Taking care of home responsibilities to maintain a comfortable living space."},
+                    "ua": {"title": "Утримання дому", "description": "Виконання домашніх обов'язків для підтримання комфортного житлового простору."}
+                } 
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-couch",
+                "value": 11,
+                "locales": {
+                    "en": {"title": "Relaxing", "description": "Unwinding and recharging, finding peace and balance in everyday life."},
+                    "ua": {"title": "Відпочинок", "description": "Розслаблення та підзарядка, знаходження миру та балансу в повсякденному житті."}
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-book",
+                "value": 9,
+                "locales": {
+                    "en": {"title": "Studying", "description": "Continuously learning and exploring new subjects to expand my knowledge."},
+                    "ua": {"title": "Навчання", "description": "Постійне навчання та дослідження нових тем для розширення своїх знань."}
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-dumbbell",
+                "value": 17,
+                "locales": {
+                    "en": {"title": "Exercise", "description": "Focusing on fitness and well-being through regular physical activity."},
+                    "ua": {"title": "Фізичні вправи", "description": "Зосередження на фітнесі та благополуччі через регулярну фізичну активність."}
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-utensils",
+                "value": 19,
+                "locales": {
+                    "en": {"title": "Cooking", "description": "Exploring culinary arts and experimenting with dishes from diverse cultures."},
+                    "ua": {"title": "Приготування їжі", "description": "Дослідження кулінарного мистецтва та експерименти з стравами з різних культур."}
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-map",
+                "value": 4,
+                "locales": {
+                    "en": {"title": "Exploring", "description": "Discovering new places, hiking trails, and seeking out fresh experiences."},
+                    "ua": {"title": "Дослідження", "description": "Відкриття нових місць, туристичних маршрутів та пошук нових вражень."}
+                }
+            }
+        ],
+
+        "interests": [
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-code",
+                "value": null,
+                "locales": {
+                    "en": {"title": "Programming", "description": "Diving into coding, solving complex problems, and building impactful software solutions."},
+                    "ua": {"title": "Програмування", "description": "Занурення в код, вирішення складних проблем та створення впливових програмних рішень."}
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-music",
+                "value": null,
+                "locales": {
+                    "en": {"title": "Music", "description": "Creating, composing, and exploring different musical genres and sounds."},
+                    "ua": {"title": "Музика", "description": "Створення, композування та дослідження різних музичних жанрів і звуків."}
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-desktop",
+                "value": null,
+                "locales": {
+                    "en": {"title": "Front-End Development", "description": "Designing and developing dynamic, user-friendly web interfaces with modern tools and frameworks."},
+                    "ua": {"title": "Front-End розробка", "description": "Проектування та розробка динамічних, зручних веб-інтерфейсів за допомогою сучасних інструментів і фреймворків."}
+                }
+            }
+        ]
+    }
+}

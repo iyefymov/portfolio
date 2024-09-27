@@ -1,0 +1,87 @@
+{
+    "locales": {
+        "en": {
+            "title": "Achievements",
+            "description": "My journey as a Full Stack Developer has been characterized by a deep commitment to continuous learning and refining my technical expertise, coupled with active participation in a wide range of development projects. As a result, I have accumulated a collection of notable achievements:"
+        },
+        "ua": {
+            "title": "Досягнення",
+            "description": "Моя подорож як Full Stack Developer відзначається глибокою відданістю безперервному навчанню та вдосконаленню моєї технічної експертизи, а також активною участю в різноманітних проектах з розробки. Як результат, я накопичив колекцію помітних досягнень:"
+        }
+    },
+
+    "subcategories": [
+        {
+            "id": "awards",
+            "faIcon": "fa-solid fa-trophy",
+            "locales": {
+                "en": {"title": "Awards", "buttonLabel": "More Info"},
+                "ua": {"title": "Нагороди", "buttonLabel": "Детальніше"}
+            }
+        },
+        {
+            "id": "promotions",
+            "faIcon": "fa-solid fa-arrow-trend-up",
+            "locales": {
+                "en": {"title": "Promotions", "buttonLabel": "More Info"},
+                "ua": {"title": "Підвищення", "buttonLabel": "Детальніше"}
+            }
+        }
+    ],
+
+    "items": {
+        "awards": [
+            {
+                "id": "governor_general_medal",
+                "place": "@link{places.nscc}",
+                "date": "2021/01",
+                "href": null,
+                "locales": {
+                    "en": {
+                        "title": "Jason Connell Memorial Award",
+                        "description": "A prestigious award honoring outstanding IT Programming students at the Annapolis Valley Campus of Nova Scotia Community College. This scholarship celebrates the life of Jason Allen Connell, a talented IT professional known for his dedication and creativity."
+                    },
+                    "ua": {
+                        "title": "Меморіальна нагорода Джейсона Коннелла",
+                        "description": "Престижна нагорода на честь видатних студентів програми IT-програмування в кампусі долини Аннаполіс Новошотландського коледжу спільноти. Ця стипендія вшановує життя Джейсона Аллена Коннелла, талановитого IT-професіонала, відомого своєю відданістю та креативністю."
+                    }
+                }
+            },
+            {
+                "id": "governor_general_medal",
+                "place": "@link{places.nscc}",
+                "date": "2021/05",
+                "href": "https://www.gg.ca/en/honours/governor-generals-awards/governor-generals-academic-medal",
+                "locales": {
+                    "en": {
+                        "title": "Governor General's Academic Medal",
+                        "description": "Awarded for achieving the highest academic standing in a diploma program at Nova Scotia Community College."
+                    },
+                    "ua": {
+                        "title": "Академічна медаль генерал-губернатора",
+                        "description": "Нагороджено за досягнення найвищих академічних результатів у програмі диплому в Новошотландському коледжі спільноти."
+                    }
+                }
+            }
+        ],
+
+        "promotions": [
+            {
+                "id": "promotion",
+                "place": "@link{places.colibri}",
+                "date": "2023/06",
+                "href": "https://www.gg.ca/en/honours/governor-generals-awards/governor-generals-academic-medal",
+                "locales": {
+                    "en": {
+                        "title": "Promotion to Lead Developer",
+                        "description": "Recognized for exceptional technical skills and leadership, I was promoted to Lead Developer on a critical project. In this role, I took full ownership of the development lifecycle, from client communication to implementing, testing, deploying, and supporting the application. This promotion highlighted my ability to work under pressure, manage complex tasks, and successfully deliver high-quality results independently while ensuring client satisfaction."
+                    },
+                    "ua": {
+                        "title": "Підвищення до Lead Developer",
+                        "description": "Визнаний за виняткові технічні навички та лідерство, мене було підвищено до Lead Developer у критичному проекті. У цій ролі я повністю відповідав за життєвий цикл розробки: від комунікації з клієнтом до впровадження, тестування, розгортання та підтримки додатку. Це підвищення підкреслило мою здатність працювати під тиском, управляти складними завданнями та успішно забезпечувати якісні результати самостійно, при цьому задовольняючи клієнтів."
+                    }
+                }
+            }
+        ]
+    }
+}

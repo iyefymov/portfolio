@@ -1,0 +1,46 @@
+{
+    "skovoroda": {
+        "logoUrl": "images/places/logo-skovoroda.png",
+        "faIcon": "fas fa-university",
+        "locales": {
+            "en": {"name": "H.S. Skovoroda Kharkiv National Pedagogical University."},
+            "ua": {"name": "Харківський національний педагогічний університет імені Г.С. Сковороди."}
+        }
+    },
+
+    "nscc": {
+        "logoUrl": "images/places/logo-nscc.png",
+        "faIcon": "fas fa-university",
+        "locales": {
+            "en": {"name": "Nova Scotia Community College"},
+            "ua": {"name": "Новошотландський коледж спільноти"}
+        }
+    },
+
+    "nix": {
+        "logoUrl": "images/places/logo-nix.png",
+        "faIcon": "fa fa-house-laptop",
+        "locales": {
+            "en": {"name": "NIX Solutions"},
+            "ua": {"name": "NIX Solutions"}
+        }
+    },
+
+    "avrl": {
+        "logoUrl": "images/places/logo-avrl.png",
+        "faIcon": "fa fa-house-laptop",
+        "locales": {
+            "en": {"name": "Annapolis Valley Regional Library"},
+            "ua": {"name": "Регіональна бібліотека долини Аннаполіс"}
+        }
+    },
+
+    "colibri": {
+        "logoUrl": "images/places/logo-colibri.png",
+        "faIcon": "fa fa-house-laptop",
+        "locales": {
+            "en": {"name": "Colibri Software"},
+            "ua": {"name": "Colibri Software"}
+        }
+    }
+}

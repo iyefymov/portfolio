@@ -1,0 +1,49 @@
+{
+    "locales": {
+        "en": {
+            "title": "<span class='text-primary'>Educational</span> Background",
+            "description": "A glimpse into my academic trajectory and accomplishments."
+        },
+        "ua": {
+            "title": "<span class='text-primary'>Освітнє</span> минуле",
+            "description": "Короткий огляд моєї академічної траєкторії та досягнень."
+        }
+    },
+
+    "items": [
+
+        {
+            "id": "bachelor",
+            "place": "@link{places.skovoroda}",
+            "period": ["2014/09", "2018/05"],
+
+            "locales": {
+                "en": {
+                    "title": "Bachelor's in Mathematics",
+                    "description": "During my studies, I developed strong analytical and problem-solving skills, which have been instrumental in my approach to software development. My background in mathematics also provided a solid foundation for tackling complex algorithms and logical challenges, further enhancing my capabilities as a Full Stack Developer."
+                },
+                "ua": {
+                    "title": "Бакалавр математики",
+                    "description": "Під час навчання я розвивав сильні аналітичні та проблемно-орієнтовані навички, які стали важливими у моєму підході до розробки програмного забезпечення. Моя математична база також надала міцну основу для вирішення складних алгоритмів і логічних задач, що ще більше покращило мої можливості як Full Stack Developer."
+                }
+            }
+        },
+
+        {
+            "id": "nscc",
+            "place": "@link{places.nscc}",
+            "period": ["2019/09", "2021/05"],
+
+            "locales": {
+                "en": {
+                    "title": "Diploma with Honors in IT Programming",
+                    "description": "During my time at NSCC Centre of Geographic Sciences from September 2019 to May 2021, I focused on IT programming. I gained proficiency in various programming languages such as Java, C, C++, C#, and Python. Additionally, I developed skills in database management by creating SQL and MongoDB queries to extract specific information. My expertise extended to administering both Linux and Windows operating systems. I also delved into web development, designing and building interactive websites using HTML, CSS, and JavaScript. Frameworks like Express.js, Vue.js, Django, .NET Core, and ASP.NET Core were part of my toolkit for creating web applications. I learned to use the version control system Git and applied Agile methodology in my development processes. Overall, my college experience equipped me with a comprehensive skill set in IT programming and related technologies"
+                },
+                "ua": {
+                    "title": "Диплом з відзнакою в IT-програмуванні",
+                    "description": "Під час мого навчання в NSCC Centre of Geographic Sciences з вересня 2019 року по травень 2021 року я зосередився на IT-програмуванні. Я набув майстерності в різних мовах програмування, таких як Java, C, C++, C# та Python. Крім того, я розвинув навички управління базами даних, створюючи SQL та MongoDB запити для витягання конкретної інформації. Моя експертиза також поширювалася на адміністрування як Linux, так і Windows операційних систем. Я також заглиблювався у веб-розробку, проектуючи та створюючи інтерактивні веб-сайти за допомогою HTML, CSS та JavaScript. Такі фреймворки, як Express.js, Vue.js, Django, .NET Core та ASP.NET Core, були частиною мого інструментарію для створення веб-додатків. Я навчився користуватися системою контролю версій Git та застосовував методологію Agile у своїх процесах розробки. Загалом, мій досвід у коледжі забезпечив мене всебічним набором навичок в IT-програмуванні та суміжних технологіях."
+                }
+            }
+        }
+    ]
+}

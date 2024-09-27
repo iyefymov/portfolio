@@ -1,0 +1,20 @@
+{
+    "supportedLanguages": [
+        {
+            "name": "English",
+            "id": "en",
+            "flagUrl": "images/flags/en.png",
+            "default": true
+        },
+
+        {
+            "name": "Ukrainian",
+            "id": "ua",
+            "flagUrl": "images/flags/ua.png"
+        }
+    ],
+
+    "preloaderEnabled": false,
+    "contactFormEnabled": false,
+    "sidebarShrinkingEnabled": false
+}

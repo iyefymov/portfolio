@@ -1,0 +1,102 @@
+{
+    "locales": {
+        "en": {
+            "title": "My <span class='text-primary'>Portfolio</span>",
+            "description": "Explore a selection of projects I've worked on."
+        },
+        "ua": {
+            "title": "Моє <span class='text-primary'>Портфоліо</span>",
+            "description": "Ознайомтеся з вибраними проектами, над якими я працював."
+        }
+    },
+
+    "subcategories": [
+        {
+            "id": "openSource",
+            "locales": {
+                "en": {"title": "Open Source"},
+                "ua": {"title": "Відкритий код"}
+            }
+        },
+        {
+            "id": "industry",
+            "locales": {
+                "en": {"title": "Industry"},
+                "ua": {"title": "Індустрія"}
+            }
+        },
+        {
+            "id": "social",
+            "locales": {
+                "en": {"title": "Social"},
+                "ua": {"title": "Соціальний"}
+            }
+        }
+    ],
+
+    "items": {
+
+        "openSource": [
+            {
+                "id": "cookiecutter-django-docker-websockets",
+                "title": "Django Docker Websockets Cookiecutter",
+                "logoUrl": "images/portfolio/cookiecutter.png",
+                "links": [
+                    {"faIcon": "fa-brands fa-github", "href": "https://github.com/iyefymov/cookiecutter-django-docker-websockets", "id": "Github"}
+                ],
+                "locales": {
+                    "en": {
+                        "description": "<b>Django Channels Docker Cookiecutter</b> is an open-source project that simplifies the setup of scalable, real-time web applications using Django, Docker, and Websockets. It provides a pre-configured template to jumpstart development with Django Channels, Docker containerization, and Websocket support.",
+                        "tags": ["Django", "Docker", "WebSockets", "PostgreSQL"]
+                    },
+                    "ua": {
+                        "description": "<b>Django Channels Docker Cookiecutter</b> — це проект з відкритим кодом, який спрощує налаштування масштабованих веб-додатків реального часу, використовуючи Django, Docker та Websockets. Він надає попередньо налаштований шаблон для швидкого старту розробки з використанням Django Channels, контейнеризації Docker і підтримки Websocket.",
+                        "tags": ["Django", "Docker", "WebSockets", "PostgreSQL"]
+                    }
+                }
+            }
+        ],
+
+        "industry": [
+            {
+                "id": "veriport",
+                "title": "Veriport",
+                "logoUrl": "images/portfolio/veriport.png",
+                "links": [
+                    {"faIcon": "fa-solid fa-globe", "href": "https://veriport.ca/", "id": "Web"}
+                ],
+                "locales": {
+                    "en": {
+                        "description": "<b>Veriport</b> is a cutting-edge, cloud-based platform designed for managing drug and alcohol testing with unmatched security and efficiency. Its user-friendly interface and advanced automated workflows significantly reduce turnaround times, minimize errors, and streamline administrative tasks. Veriport empowers organizations to oversee testing processes seamlessly, ensuring compliance and delivering fast, accurate results. Whether for workplace testing, compliance checks, or other industry needs, Veriport simplifies test management while enhancing reliability and productivity.",
+                        "tags": ["Django Rest Framework", "Vue.js", "PostgreSQL", "Machine Learning", "AWS", "CI/CD", "Celery", "Redis"]
+                    },
+                    "ua": {
+                        "description": "<b>Veriport</b> — це інноваційна хмарна платформа для управління тестуванням на наркотики та алкоголь з неперевершеною безпекою та ефективністю. Її зручний інтерфейс і розвинені автоматизовані робочі процеси значно зменшують час обробки, мінімізують помилки та спрощують адміністративні завдання. Veriport дозволяє організаціям безперешкодно контролювати процеси тестування, забезпечуючи відповідність та надаючи швидкі та точні результати. Незалежно від того, чи це тестування на робочому місці, перевірки відповідності або інші потреби індустрії, Veriport спрощує управління тестами, підвищуючи надійність і продуктивність.",
+                        "tags": ["Django Rest Framework", "Vue.js", "PostgreSQL", "Машинне навчання", "AWS", "CI/CD", "Celery", "Redis"]
+                    }
+                }
+            }
+        ],
+
+        "social": [
+            {
+                "id": "valleygiveandtake",
+                "title": "Curbside Collection Map",
+                "logoUrl": "images/portfolio/valleygiveandtake.png",
+                "links": [
+                    {"faIcon": "fa-solid fa-globe", "href": "https://valleygiveandtake.ca/", "id": "Web"}
+                ],
+                "locales": {
+                    "en": {
+                        "description": "<b>Valley Give & Take</b> is a place to give and take items for free in the Annapolis Valley (Nova Scotia) during fall cleanup. The Curbside Collection Map is a web app that displays the locations of items available for pickup and drop-off. Users can add items to the map, view details, and pick them up. The app aims to reduce waste and promote reuse.",
+                        "tags": ["Vue.js", "Django Rest Framework", "Docker", "AWS", "CI/CD"]
+                    },
+                    "ua": {
+                        "description": "<b>Valley Give & Take</b> — це місце, де можна безкоштовно віддавати та брати речі в долині Аннаполіс (Нова Шотландія) під час осіннього прибирання. Картка збору на узбіччі — це веб-додаток, який відображає місця, де можна забрати або залишити речі. Користувачі можуть додавати речі на карту, переглядати деталі та забирати їх. Додаток спрямований на зменшення відходів та сприяння повторному використанню.",
+                        "tags": ["Vue.js", "Django Rest Framework", "Docker", "AWS", "CI/CD"]
+                    }
+                }
+            }
+        ]
+    }
+}
