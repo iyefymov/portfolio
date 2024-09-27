@@ -56,8 +56,8 @@ npm run preview
 ```
 
 Technologies
-Vue.js: The progressive JavaScript framework.
-Vite: Next-generation frontend tooling.
-Sass: CSS preprocessor for more efficient styling.
-Bootstrap 5: CSS framework for responsive design.
-FontAwesome: Icon library for scalable vector icons.
+- Vue.js: The progressive JavaScript framework.
+- Vite: Next-generation frontend tooling.
+- Sass: CSS preprocessor for more efficient styling.
+- Bootstrap 5: CSS framework for responsive design.
+- FontAwesome: Icon library for scalable vector icons.
