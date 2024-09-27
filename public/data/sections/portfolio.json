@@ -19,17 +19,17 @@
             }
         },
         {
-            "id": "industry",
-            "locales": {
-                "en": {"title": "Industry"},
-                "ua": {"title": "Індустрія"}
-            }
-        },
-        {
             "id": "social",
             "locales": {
                 "en": {"title": "Social"},
                 "ua": {"title": "Соціальний"}
+            }
+        },
+        {
+            "id": "industry",
+            "locales": {
+                "en": {"title": "Industry"},
+                "ua": {"title": "Індустрія"}
             }
         }
     ],
@@ -57,27 +57,6 @@
             }
         ],
 
-        "industry": [
-            {
-                "id": "veriport",
-                "title": "Veriport",
-                "logoUrl": "images/portfolio/veriport.png",
-                "links": [
-                    {"faIcon": "fa-solid fa-globe", "href": "https://veriport.ca/", "id": "Web"}
-                ],
-                "locales": {
-                    "en": {
-                        "description": "<b>Veriport</b> is a cutting-edge, cloud-based platform designed for managing drug and alcohol testing with unmatched security and efficiency. Its user-friendly interface and advanced automated workflows significantly reduce turnaround times, minimize errors, and streamline administrative tasks. Veriport empowers organizations to oversee testing processes seamlessly, ensuring compliance and delivering fast, accurate results. Whether for workplace testing, compliance checks, or other industry needs, Veriport simplifies test management while enhancing reliability and productivity.",
-                        "tags": ["Django Rest Framework", "Vue.js", "PostgreSQL", "Machine Learning", "AWS", "CI/CD", "Celery", "Redis"]
-                    },
-                    "ua": {
-                        "description": "<b>Veriport</b> — це інноваційна хмарна платформа для управління тестуванням на наркотики та алкоголь з неперевершеною безпекою та ефективністю. Її зручний інтерфейс і розвинені автоматизовані робочі процеси значно зменшують час обробки, мінімізують помилки та спрощують адміністративні завдання. Veriport дозволяє організаціям безперешкодно контролювати процеси тестування, забезпечуючи відповідність та надаючи швидкі та точні результати. Незалежно від того, чи це тестування на робочому місці, перевірки відповідності або інші потреби індустрії, Veriport спрощує управління тестами, підвищуючи надійність і продуктивність.",
-                        "tags": ["Django Rest Framework", "Vue.js", "PostgreSQL", "Машинне навчання", "AWS", "CI/CD", "Celery", "Redis"]
-                    }
-                }
-            }
-        ],
-
         "social": [
             {
                 "id": "valleygiveandtake",
@@ -97,6 +76,28 @@
                     }
                 }
             }
+        ],
+
+        "industry": [
+            {
+                "id": "veriport",
+                "title": "Veriport",
+                "logoUrl": "images/portfolio/veriport.png",
+                "links": [
+                    {"faIcon": "fa-solid fa-globe", "href": "https://veriport.ca/", "id": "Web"}
+                ],
+                "locales": {
+                    "en": {
+                        "description": "<b>Veriport</b> is a cutting-edge, cloud-based platform designed for managing drug and alcohol testing with unmatched security and efficiency. Its user-friendly interface and advanced automated workflows significantly reduce turnaround times, minimize errors, and streamline administrative tasks. Veriport empowers organizations to oversee testing processes seamlessly, ensuring compliance and delivering fast, accurate results. Whether for workplace testing, compliance checks, or other industry needs, Veriport simplifies test management while enhancing reliability and productivity.",
+                        "tags": ["Django Rest Framework", "Vue.js", "PostgreSQL", "Machine Learning", "AWS", "CI/CD", "Celery", "Redis"]
+                    },
+                    "ua": {
+                        "description": "<b>Veriport</b> — це інноваційна хмарна платформа для управління тестуванням на наркотики та алкоголь з неперевершеною безпекою та ефективністю. Її зручний інтерфейс і розвинені автоматизовані робочі процеси значно зменшують час обробки, мінімізують помилки та спрощують адміністративні завдання. Veriport дозволяє організаціям безперешкодно контролювати процеси тестування, забезпечуючи відповідність та надаючи швидкі та точні результати. Незалежно від того, чи це тестування на робочому місці, перевірки відповідності або інші потреби індустрії, Veriport спрощує управління тестами, підвищуючи надійність і продуктивність.",
+                        "tags": ["Django Rest Framework", "Vue.js", "PostgreSQL", "Машинне навчання", "AWS", "CI/CD", "Celery", "Redis"]
+                    }
+                }
+            }
         ]
+
     }
 }
